@@ -10,6 +10,7 @@ public class ChildOverriding extends ParentsOverriding{
 public static void parentsMethod() {
 	System.out.println("I am a good QA engineer.");
 }
-	
+
+
 	
 }

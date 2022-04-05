@@ -4,8 +4,17 @@ import accessModifires.ParentClass;
 
 public class ChildClass extends ParentClass {
 	public static void main(String[] args) {
-		 m2();
+		ParentClass.protectedStaticMethod();
+		protectedStaticMethod();
+		
 		ParentClass obj=new ParentClass();
-		obj.m1();	
+		obj.publicMethod();
+		//obj.protectedMethod();  // don't allow has relation in differentPackage
+	}
+	
+	public  void method1() {
+		ParentClass.protectedStaticMethod();
+		protectedStaticMethod();
+		protectedMethod();
 	}
 }

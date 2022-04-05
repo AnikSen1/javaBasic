@@ -3,27 +3,34 @@ package accessModifires;
 public class ParentClass {
 
 	public static void main(String[] args) {
-		      m2();
+		      
 		ParentClass obj = new ParentClass();
-	        obj.m1();
-	        obj.m3();
-	        obj.m4();
+	        obj.publicMethod();
+	        obj.protectedMethod();
+	        obj.defaultMethod();
+	        obj.privateMethod();
 
 	}
 	
-	public void m1() {
+	public  void publicMethod() {
 	    System.out.println("I am public m1 method");    
 	    }
-	protected static void m2() {
+	protected  void protectedMethod() {
 	    System.out.println("I am protected m2 method");    
 	    
 	    } 
-	void m3() {
+	 void  defaultMethod() {
 	    System.out.println("I am default m3 method");    
 	}
-	private void m4() {
+	private  void privateMethod() {
 	    System.out.println("I am private m4 method");    
 	}
+	
+	
+	protected static void protectedStaticMethod() {
+	    System.out.println("I am static protected  method");    
+	    
+	    } 
 
 
 }

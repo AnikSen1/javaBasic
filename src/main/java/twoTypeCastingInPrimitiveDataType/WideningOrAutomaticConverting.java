@@ -15,7 +15,7 @@ public class WideningOrAutomaticConverting {
 	public static void smallerToLargerDataType() {
 
 	byte byteNumber=10;                              //smaller to larger dataType(byte to double)
-	short c1=byteNumber;                            //Don't need to write again the new dataType in the value 
+	short c1=byteNumber; //Don't need to write again the new dataType in the value 
 	int c2=byteNumber;                             //1byte= 8bits
 	long c3=byteNumber;
 	float c4=byteNumber;
@@ -26,9 +26,7 @@ public class WideningOrAutomaticConverting {
 	float c8=c4*c1;
 	double c9=c4*c1;
 	
-	
 
-	
 	
 	
 	

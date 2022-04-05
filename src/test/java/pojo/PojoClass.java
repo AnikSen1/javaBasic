@@ -3,9 +3,10 @@ package pojo;
 public class PojoClass {
 
 	public static void main(String[] args) {
-		Car camary = new Car(4, 4, 2, 2200);
-           camary.headlightOn("day");
+		Car camary = new Car(4, 4, 2, 2200);           
            Car sienna = new Car(0, 0, 0, 0);
+           
+           camary.headlightOn("day");
 	}
 
 }
@@ -26,7 +27,7 @@ public class PojoClass {
 		this.headlight = headlight;
 		this.value = value;
 		
-		System.out.println("car seats" + seats +"car wheel "+ wheel +"headlight  "+ headlight);
+		System.out.println("car seats " + seats +", car wheel "+ wheel +", headlight  "+ headlight+", car price "+value);
 		
 		
 		
@@ -35,7 +36,7 @@ public class PojoClass {
 	  
 	  public Car() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 
 
@@ -50,15 +51,6 @@ public class PojoClass {
 				  
 			  }
 			  
-	  
-	  
-	
-	
-	
-	
-	
-	
-	
-	
+	  	
 }
 

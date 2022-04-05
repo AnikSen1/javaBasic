@@ -10,6 +10,7 @@ public class ParentsClass {
 
 	public static void method() {
 		System.out.println("My son will inherit all my money.");
+		System.out.println("hggug");
 		
 	}
 
